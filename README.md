@@ -53,3 +53,58 @@ A automação do Active Directory é essencial para empresas que desejam reduzir
    ```
    git clone https://github.com/seu-usuario/nome-do-repositorio.git
    ```
+4. Acesse o diretório do projeto:
+  ```
+cd nome-do-repositorio
+  ```
+
+---
+
+## Configurando e Editando o Script
+
+1. Abra o script no editor de sua escolha (VS Code, Notepad++, etc.).
+2. Edite as informações necessárias, como:
+    - Nome do domínio
+    - Estrutura organizacional
+    - Permissões de grupos
+    - Depois de verificar todos as variavéis foram preenchidas corretamente, descomente o comando de criação do usuário
+3. Salve as alterações e teste o script localmente antes de subir as mudanças.
+
+---
+
+## Executando o Script
+
+Para executar o script no PowerShell:
+1. Abra o PowerShell como Administrador.
+2. Navegue até o diretório onde o script está salvo:
+ ```
+cd "C:\caminho\para\o\script"
+ ```
+3. Caso o PowerShell bloqueie a execução, altere a política de execução temporariamente:
+ ```
+Set-ExecutionPolicy Unrestricted -Scope Process
+ ```
+4. Execute o script:
+ ```
+.\nome-do-script.ps1
+ ```
+
+---
+
+## Subindo as Alterações para o GitHub
+
+1. Adicione as mudanças ao controle de versão:
+ ```
+git add .
+ ```
+2. Faça um commit das mudanças:
+ ```
+git commit -m "Ajustes no script do Active Directory"
+ ```
+3. Envie as mudanças para o repositório forkado:
+ ```
+git push origin main
+ ```
+4. Se desejar contribuir com o repositório original, crie um Pull Request.
+
+Agora você está pronto para utilizar e personalizar sua automação no Active Directory!
