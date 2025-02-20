@@ -51,4 +51,5 @@ A automação do Active Directory é essencial para empresas que desejam reduzir
 2. Clique no botão Fork para criar uma cópia do repositório na sua conta.
 3. Clone o repositório para sua máquina local:
    ```
-   git clone https://github.com/seu-usuario/nome-do-repositorio.git ```
+   git clone https://github.com/seu-usuario/nome-do-repositorio.git
+   ```
