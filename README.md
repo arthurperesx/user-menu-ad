@@ -1,5 +1,4 @@
-﻿﻿# Automação no Active Directory com PowerShell
-
+#  Automação no Active Directory com PowerShell
 Este script em PowerShell fornece uma interface interativa para a administração de usuários no Active Directory (AD). Ele foi desenvolvido para facilitar a gestão de contas de usuários, permitindo que administradores realizem tarefas comuns de forma rápida, segura e padronizada.
 A automação do Active Directory é essencial para empresas que desejam reduzir erros humanos, aumentar a produtividade e garantir conformidade nas operações de TI. Este script foi criado para atender a essas necessidades, proporcionando um fluxo de trabalho eficiente para o gerenciamento de contas no AD.
 
