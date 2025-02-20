@@ -6,7 +6,7 @@ A automação do Active Directory é essencial para empresas que desejam reduzir
 
 ## O que este script faz?
 
-- ** ✅ Criação de usuários
-- **✅ Reset de senha
-- **✅ Ativação e desativação de contas
-- **✅ Bloqueio e desbloqueio de usuários
+- ✅ Criação de usuários
+- ✅ Reset de senha
+- ✅ Ativação e desativação de contas
+- ✅ Bloqueio e desbloqueio de usuários
