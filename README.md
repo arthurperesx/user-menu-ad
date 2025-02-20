@@ -10,3 +10,19 @@ A automação do Active Directory é essencial para empresas que desejam reduzir
 - ✅ Reset de senha
 - ✅ Ativação e desativação de contas
 - ✅ Bloqueio e desbloqueio de usuários
+
+---
+
+## Como funciona?
+
+- O script guia o usuário por um **menu interativo**, permitindo a escolha da ação desejada.
+- Para **criação de usuário**, ele valida o nome inserido, corrige a formatação e sugere um login no formato *nome.ultimosobrenome*. Se o login já existir no AD, tenta variações até encontrar um disponível.
+- Caso todos os logins possíveis estejam ocupados, o sistema solicita um login manual e verifica sua disponibilidade.
+- O script também solicita unidade e departamento, garantindo que o usuário seja criado no local correto com as permissões adequadas. Os departamentos são listados conforme a unidade escolhida, evitando erros de alocação.
+- O script também solicita unidade e departamento, garantindo que o usuário seja criado no local correto com as permissões adequadas.
+--O usuário escolhe uma unidade dentre as opções disponíveis.
+--Caso a unidade selecionada seja Corporativo, são listados departamentos específicos dessa unidade.
+--Para as demais unidades (filiais), são exibidos departamentos padronizados, garantindo que cada usuário seja vinculado corretamente.
+- No final, exibe um resumo com os dados inseridos e permite ao administrador confirmar ou editar antes da criação do usuário.
+- Para reset de senha, o script gera automaticamente uma senha segura de 10 caracteres.
+- No caso de bloqueio, desbloqueio, ativação e inativação, o sistema verifica o status atual do usuário antes de realizar qualquer alteração, evitando ações desnecessárias.
