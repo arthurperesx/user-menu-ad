@@ -6,10 +6,10 @@ A automação do Active Directory é essencial para empresas que desejam reduzir
 
 ## O que este script faz?
 
-- ✅ Criação de usuários
-- ✅ Reset de senha
-- ✅ Ativação e desativação de contas
-- ✅ Bloqueio e desbloqueio de usuários
+- Criação de usuários
+- Reset de senha
+- Ativação e desativação de contas
+- Bloqueio e desbloqueio de usuários
 
 ---
 
@@ -31,12 +31,23 @@ A automação do Active Directory é essencial para empresas que desejam reduzir
 
 ## Benefícios
 
-- 🚀 Redução de erros humanos
-- 🚀 Agilidade na administração de contas
-- 🚀 Padronização no gerenciamento de usuários
+- Redução de erros humanos
+- Agilidade na administração de contas
+- Padronização no gerenciamento de usuários
 
 ---
 
 ## Por que usar essa automação?
 
 - Este script otimiza a gestão de usuários no Active Directory, reduzindo tempo gasto em tarefas repetitivas e permitindo que a equipe de TI se concentre em atividades estratégicas.
+
+---
+
+## Como usar este script
+
+### Fazendo um Fork do Repositório
+
+1. Acesse o repositório no GitHub.
+2. Clique no botão Fork para criar uma cópia do repositório na sua conta.
+3. Clone o repositório para sua máquina local:
+   ```git clone https://github.com/seu-usuario/nome-do-repositorio.git ```
