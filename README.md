@@ -37,6 +37,6 @@ A automação do Active Directory é essencial para empresas que desejam reduzir
 
 ---
 
-##Por que usar essa automação?
+## Por que usar essa automação?
 
 - Este script otimiza a gestão de usuários no Active Directory, reduzindo tempo gasto em tarefas repetitivas e permitindo que a equipe de TI se concentre em atividades estratégicas.
